@@ -12,6 +12,7 @@ Client <---->  HAproxy  <-> Tor proxy 2
                         <-> Tor proxy n
 ```
 
+__Why is this one different?__ : Lightweight (16mb) Alpine docker image, doesn't use Ruby, low memory requirements, uses `runit` for process management. Doesn't provide a HTTP proxy.
 
 Usage : 
 -------
